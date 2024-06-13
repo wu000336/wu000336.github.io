@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+header, footer {
+    background-color: lightgoldenrodyellow;
+}
+.site-title {
+    color: rgb(139, 0, 69);
+}
+#my-image {
+    box-shadow: 0 0 2px 1px black;
+}
+ul {
+    list-style-type: square;
+}
+ul li:nth-child(odd) {
+    background-color: lightsalmon;
+}
+nav ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0;
+}
+nav ul li a {
+    text-decoration: none; /* Remove underline */
+    background-color: lightpink;
+    border: 1px solid burlywood;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    background-color: coral;
+    color: white;
+}
